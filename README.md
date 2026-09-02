@@ -74,7 +74,7 @@ One static page, a scroll-driven corridor of live systems. 272 KB, no framework,
 
 ## Practice
 
-**Languages.** TypeScript, JavaScript, Python, SQL, C++, some Rust
+**Languages.** TypeScript, JavaScript, Python, SQL, C++
 
 **Interface.** Next.js (App Router), React, Tailwind, Framer Motion, Lenis
 
