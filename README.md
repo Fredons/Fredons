@@ -1,6 +1,6 @@
 # Frederick Akam
 
-Software engineer in Kaduna, Nigeria (UTC+1). I build production web platforms end to end, usually as the only developer: schema, backend, interface, deployment, and the operational tooling around them.
+Software engineer in Kaduna, Nigeria (UTC+1). Ten years in software, the last four building production web platforms end to end, usually as the only developer: schema, backend, interface, deployment, and the operational tooling around them.
 
 Most of my repositories here are private because the code is commercial or belongs to a client. The systems themselves are live, so the quickest way to check the work is to open one.
 
@@ -18,7 +18,7 @@ Multi-tenant SaaS for Australian buyer's agents. Generates pre-purchase property
 ### [ProForge](https://proforge.com.au)
 AI phone receptionist for Australian trade businesses. Answers in an Australian voice at any hour, qualifies the caller, books the job into the calendar, texts a confirmation, follows up quotes, and routes genuine emergencies straight to the operator. Operators run the business from a separate dashboard app.
 
-`Next.js` `TypeScript` `Supabase` `n8n` `voice AI` `telephony`
+`Next.js` `TypeScript` `Supabase` `n8n` `Twilio` `Vapi`
 
 ### [iventicks](https://eventicket-psi.vercel.app)
 Event ticketing across 95 server-side endpoints. Payments, fraud detection on purchase patterns, refunds, bulk event cancellation with money owed back to hundreds of holders at once, organiser payouts, data export, and a live check-in stream with offline sync. Installable as a PWA, because the person scanning at the gate is on a phone with bad signal.
@@ -73,7 +73,7 @@ One static page, a scroll-driven corridor of live systems. 272 KB, no framework,
 
 **Data.** Postgres, Supabase, PostGIS, SQLite, Sanity, REST design, multi-tenant schema
 
-**AI.** Claude API, Claude Agent SDK, agentic tooling, tool and function definitions, prompt and eval design, n8n
+**AI.** Claude API, Claude Agent SDK, agentic tooling, tool and function definitions, prompt and eval design, voice AI (Vapi, Twilio), n8n
 
 **Infrastructure.** Vercel, self-hosted Hetzner, Docker, CI/CD, observability
 
