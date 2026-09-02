@@ -13,7 +13,9 @@ Available for remote contract and full-time work. **akamfrederick@gmail.com**
 ### [PropInfo](https://propinfo.com.au)
 Multi-tenant SaaS for Australian buyer's agents. Generates pre-purchase property assessments with the Claude API against comparable sales, computes state-specific stamp duty and lenders mortgage insurance, projects thirty years of yield, cash flow and depreciation, and tracks a client from first enquiry to settlement. Role-based access across shared agency workspaces.
 
-`Next.js` `TypeScript` `Supabase` `Postgres` `Claude API`
+Underneath it is a data layer built for an investor-focused direction of the product: a Python ETL pipeline into PostGIS holding 5.88 million records. 5.1 million geocoded G-NAF addresses, 239,895 NSW property sales, 447,794 VIC crime records, 63,673 Census 2021 records by postcode, postal boundaries for the map overlays, and RBA cash rate history feeding the investment calculator.
+
+`Next.js` `TypeScript` `Supabase` `Postgres` `PostGIS` `Python` `Claude API`
 
 ### [ProForge](https://proforge.com.au)
 AI phone receptionist for Australian trade businesses. Answers in an Australian voice at any hour, qualifies the caller, books the job into the calendar, texts a confirmation, follows up quotes, and routes genuine emergencies straight to the operator. Operators run the business from a separate dashboard app.
@@ -50,6 +52,11 @@ Charge point management for off-grid solar EV charging, built on a CitrineOS for
 
 `OCPP` `CitrineOS` `Postgres`
 
+### JARVIS
+A local-first AI operating layer for Windows, in development. Tauri 2 in Rust owns the window, tray, global hotkey and sidecar lifecycle. A Node sidecar runs the Claude Agent SDK with tools into the real OS. Memory persists in SQLite with FTS5 and mirrors one way into a markdown vault, and every run carries a hard cost ceiling. Single user, single machine, no deployment, by design. A milestone counts as done when it survives a week of daily use, not when the code merges.
+
+`Tauri 2` `Rust` `React` `TypeScript` `Claude Agent SDK` `SQLite FTS5`
+
 ---
 
 ## Public code
@@ -67,11 +74,11 @@ One static page, a scroll-driven corridor of live systems. 272 KB, no framework,
 
 ## Practice
 
-**Languages.** TypeScript, JavaScript, Python, SQL, C++
+**Languages.** TypeScript, JavaScript, Python, SQL, C++, some Rust
 
 **Interface.** Next.js (App Router), React, Tailwind, Framer Motion, Lenis
 
-**Data.** Postgres, Supabase, PostGIS, SQLite, Sanity, REST design, multi-tenant schema
+**Data.** Postgres, Supabase, PostGIS, geospatial and ETL pipelines at multi-million-record scale, SQLite, Sanity, REST design, multi-tenant schema
 
 **AI.** Claude API, Claude Agent SDK, agentic tooling, tool and function definitions, prompt and eval design, voice AI (Vapi, Twilio), n8n
 
