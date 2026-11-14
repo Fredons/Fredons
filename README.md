@@ -11,11 +11,11 @@ Available for remote contract and full-time work. **akamfrederick@gmail.com**
 ## Live systems
 
 ### [PropInfo](https://propinfo.com.au)
-Multi-tenant SaaS for Australian buyer's agents. Generates pre-purchase property assessments with the Claude API against comparable sales, computes state-specific stamp duty and lenders mortgage insurance, projects thirty years of yield, cash flow and depreciation, and tracks a client from first enquiry to settlement. Role-based access across shared agency workspaces.
+Multi-tenant SaaS for Australian buyer's agents. Generates pre-purchase property assessments with the OpenAI API against comparable sales, computes state-specific stamp duty and lenders mortgage insurance, projects thirty years of yield, cash flow and depreciation, and tracks a client from first enquiry to settlement. Role-based access across shared agency workspaces.
 
 Underneath it is a data layer built for an investor-focused direction of the product: a Python ETL pipeline into PostGIS holding 5.88 million records. 5.1 million geocoded G-NAF addresses, 239,895 NSW property sales, 447,794 VIC crime records, 63,673 Census 2021 records by postcode, postal boundaries for the map overlays, and RBA cash rate history feeding the investment calculator.
 
-`Next.js` `TypeScript` `Supabase` `Postgres` `PostGIS` `Python` `Claude API`
+`Next.js` `TypeScript` `Supabase` `Postgres` `PostGIS` `Python` `OpenAI API`
 
 ### [ProForge](https://proforge.com.au)
 AI phone receptionist for Australian trade businesses. Answers in an Australian voice at any hour, qualifies the caller, books the job into the calendar, texts a confirmation, follows up quotes, and routes genuine emergencies straight to the operator. Operators run the business from a separate dashboard app.
