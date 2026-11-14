@@ -47,6 +47,12 @@ Content-led cause site structured for search and sharing, with provider logic th
 
 `Next.js` `TypeScript`
 
+---
+
+## In development
+
+Private builds still in progress, so there is nothing to open yet.
+
 ### ChargeCore
 Charge point management for off-grid solar EV charging, built on a CitrineOS fork for markets where the grid is the problem rather than the solution. OCPP, metering, session billing and tariff logic against solar supply. Private, in build.
 
