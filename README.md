@@ -11,7 +11,7 @@ Available for remote contract and full-time work. **akamfrederick@gmail.com**
 ## Live systems
 
 ### [PropInfo](https://propinfo.com.au)
-Multi-tenant SaaS for Australian buyer's agents. Generates pre-purchase property assessments with the OpenAI API against comparable sales, computes state-specific stamp duty and lenders mortgage insurance, projects thirty years of yield, cash flow and depreciation, and tracks a client from first enquiry to settlement. Role-based access across shared agency workspaces.
+Multi-tenant SaaS for Australian buyer's agents. White-label property reports with flood and bushfire risk graded to the individual lot and comparable sales, state-specific stamp duty and lenders mortgage insurance, thirty years of yield, cash flow and depreciation, and a client tracked from first enquiry to settlement. The OpenAI API handles document analysis, listing descriptions and portfolio insights. Role-based access across shared agency workspaces.
 
 Underneath it is a data layer built for an investor-focused direction of the product: a Python ETL pipeline into PostGIS holding 5.88 million records. 5.1 million geocoded G-NAF addresses, 239,895 NSW property sales, 447,794 VIC crime records, 63,673 Census 2021 records by postcode, postal boundaries for the map overlays, and RBA cash rate history feeding the investment calculator.
 
